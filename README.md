@@ -2,14 +2,14 @@
 
 # spaCy REST installation
 
-git clone https://github.com/jontxu70/spacy-services/
-cd spacy-service
-mv displacy displacy_service
-cd displacy_service
-pip -r install requirements.txt
-cd ..
-wget https://raw.githubusercontent.com/explosion/spaCy/master/requirements.txt
-pip -r install requirements.txt
+git clone https://github.com/jontxu70/spacy-services/<br>
+cd spacy-service<br>
+mv displacy displacy_service<br>
+cd displacy_service<br>
+pip -r install requirements.txt<br>
+cd .. <br>
+wget https://raw.githubusercontent.com/explosion/spaCy/master/requirements.txt<br>
+pip -r install requirements.txt<br>
 
 
 python displacy_service/app.py
