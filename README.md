@@ -3,7 +3,8 @@
 
 # spaCy REST installation * added *
 
-Don't forget python and python-dev, build-essential
+Don't forget python and python-dev, build-essential<br>
+<br>
 apt-get install python-dev build essential<br>
 git clone https://github.com/jontxu70/spacy-services/<br>
 cd spacy-service<br>
