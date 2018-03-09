@@ -1,6 +1,7 @@
 <a href="https://explosion.ai"><img src="https://explosion.ai/assets/img/logo.svg" width="125" height="125" align="right" /></a>
 
-# spaCy REST installation
+
+# spaCy REST installation * added *
 
 Don't forget python and python-dev, build-essential
 apt-get install python-dev build essential<br>
@@ -13,9 +14,14 @@ cd .. <br>
 wget https://raw.githubusercontent.com/explosion/spaCy/master/requirements.txt<br>
 pip -r install requirements.txt<br>
 
-Run the service:
-python displacy_service/app.py
+Download spacy modules:<br>
+python -m spacy download en_core_web_sm<br>
+python -m spacy download en<br>
 
+
+Run the service:<br>
+python displacy_service/app.py<br>
+<br>
 
 
 # spaCy REST services
