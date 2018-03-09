@@ -20,7 +20,9 @@ python -m spacy download en<br>
 
 
 Run the service:<br>
-python displacy_service/app.py<br>
+python displacy_service/app.py 0.0.0.0<br>
+or<br>
+python displacy_service/app.py  (for localhost only)<br>
 <br>
 
 
