@@ -2,6 +2,8 @@
 
 # spaCy REST installation
 
+Don't forget python and python-dev, build-essential
+apt-get install python-dev build essential<br>
 git clone https://github.com/jontxu70/spacy-services/<br>
 cd spacy-service<br>
 mv displacy displacy_service<br>
@@ -11,7 +13,7 @@ cd .. <br>
 wget https://raw.githubusercontent.com/explosion/spaCy/master/requirements.txt<br>
 pip -r install requirements.txt<br>
 
-
+Run the service:
 python displacy_service/app.py
 
 
