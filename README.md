@@ -1,5 +1,21 @@
 <a href="https://explosion.ai"><img src="https://explosion.ai/assets/img/logo.svg" width="125" height="125" align="right" /></a>
 
+# spaCy REST installation
+
+git clone https://github.com/jontxu70/spacy-services/
+cd spacy-service
+mv displacy displacy_service
+cd displacy_service
+pip -r install requirements.txt
+cd ..
+wget https://raw.githubusercontent.com/explosion/spaCy/master/requirements.txt
+pip -r install requirements.txt
+
+
+python displacy_service/app.py
+
+
+
 # spaCy REST services
 
 This repository provides REST microservices for Explosion AI's [interactive demos](https://demos.explosion.ai) and visualisers. All requests and responses are JSON-encoded as `text/string`, so all requests require the header `Content-Type: text/string`.
